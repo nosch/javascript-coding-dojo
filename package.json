@@ -1,0 +1,32 @@
+{
+    "name": "javascript-coding-dojo",
+    "version": "0.1.0",
+    "author": "Norbert Schmidt (nosch)",
+    "description": "A simple JS Coding Dojo framework.",
+    "homepage": "https://bitbucket.org/nosch/javascript-coding-dojo/",
+    "repository": {
+        "type": "git",
+        "url": "git@bitbucket.org:nosch/javascript-coding-dojo.git"
+    },
+    "licenses": [
+        {
+          "type": "MIT",
+          "url": "http://nosch.bitbucket.org/license.txt"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.10.12"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "karma": "0.10.2",
+        "matchdep": "0.1.2",
+        "grunt": "0.4.1",
+        "grunt-karma": "0.6.2",
+        "grunt-contrib-jshint": "0.6.4",
+        "grunt-contrib-connect": "0.5.0",
+        "grunt-contrib-watch": "0.5.3",
+        "connect-livereload": "0.2.0",
+        "time-grunt": "0.1.1"
+    }
+}
