@@ -3,15 +3,15 @@
     "version": "0.1.0",
     "author": "Norbert Schmidt (nosch)",
     "description": "A simple JS Coding Dojo framework.",
-    "homepage": "https://bitbucket.org/nosch/javascript-coding-dojo/",
+    "homepage": "https://github.com/nosch/javascript-coding-dojo/",
     "repository": {
         "type": "git",
-        "url": "git@bitbucket.org:nosch/javascript-coding-dojo.git"
+        "url": "git@github.com:nosch/javascript-coding-dojo.git"
     },
     "licenses": [
         {
           "type": "MIT",
-          "url": "http://nosch.bitbucket.org/license.txt"
+          "url": "https://raw.github.com/nosch/javascript-coding-dojo/master/LICENSE"
         }
     ],
     "engines": {
