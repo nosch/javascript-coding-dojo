@@ -7,7 +7,7 @@ This a very simple framework for JavaScript Coding Dojo sessions, based on the "
 ## How to install?
 
 1. Install [node.js and npm](http://nodejs.org/download/ "Download node.js")
-2. $ git clone git@bitbucket.org:nosch/javascript-coding-dojo.git "javascript-coding-dojo"
+2. $ git clone git@github.com:nosch/javascript-coding-dojo.git "javascript-coding-dojo"
 3. $ cd javascript-coding-dojo
 4. $ npm install (installs karma and grunt)
 
