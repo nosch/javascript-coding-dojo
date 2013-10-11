@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     grunt.registerTask('kata', [
         'jshint',
         'connect',
-        'watch',
+        'watch'
     ]);
 
     grunt.registerTask('test', [
@@ -35,7 +35,6 @@ module.exports = function (grunt) {
     grunt.registerTask('test-run', [
         'karma:single'
     ]);
-
 
    /**
     * Configure tasks.
@@ -117,6 +116,6 @@ module.exports = function (grunt) {
                     'jshint'
                 ]
             }
-        },
+        }
     });
 };
