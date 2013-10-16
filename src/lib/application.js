@@ -1,10 +1,11 @@
 /**
  * Application (Sandbox Pattern)
+ * @param {string | array} mod
+ * @param {function} cb
+ * @returns {Application}
  * @constructor
- * @public
- * @author nosch
  */
-var Application = function () {
+var Application = function (mod, cb) {
     'use strict';
 
     // Transform arguments into array.
