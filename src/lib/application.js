@@ -58,8 +58,6 @@ var Application = function (mod, cb) {
 Application.prototype.launch = function () {
     'use strict';
 
-    var i, len;
-
     console.log(
         '3 - 2 - 1 ... %s, %s, launched sucessfully!',
         this.name,
