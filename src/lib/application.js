@@ -1,6 +1,6 @@
 /**
  * Application (Sandbox Pattern)
- * @param {string | array} mod
+ * @param {(array|string)} mod
  * @param {function} cb
  * @returns {Application}
  * @constructor
