@@ -19,14 +19,15 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "karma": "0.10.2",
-        "matchdep": "0.1.2",
+        "karma": "0.10.4",
+        "matchdep": "0.3.0",
         "grunt": "0.4.1",
         "grunt-karma": "0.6.2",
-        "grunt-contrib-jshint": "0.6.4",
+        "grunt-contrib-jshint": "0.7.1",
         "grunt-contrib-connect": "0.5.0",
         "grunt-contrib-watch": "0.5.3",
-        "connect-livereload": "0.2.0",
-        "time-grunt": "0.1.1"
+        "connect-livereload": "0.3.0",
+        "time-grunt": "0.1.2",
+        "grunt-plato": "0.2.1"
     }
 }

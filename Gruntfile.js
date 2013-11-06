@@ -36,6 +36,10 @@ module.exports = function (grunt) {
         'karma:single'
     ]);
 
+    grunt.registerTask('analyze', [
+        'plato:dev'
+    ]);
+
    /**
     * Configure tasks.
     */
@@ -115,6 +119,23 @@ module.exports = function (grunt) {
                 tasks: [
                     'jshint'
                 ]
+            }
+        },
+
+        /**
+         * Plato task
+         */
+        plato: {
+            dev: {
+                options: {
+                    jshint: grunt.file.readJSON('.jshintrc')
+                },
+                files: {
+                    'reports': [
+                        'src/**/*.js',
+                        'test/unit/**/*.js'
+                    ]
+                }
             }
         }
     });
