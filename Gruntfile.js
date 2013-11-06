@@ -33,7 +33,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('test-run', [
-        'karma:single'
+        'karma:run'
     ]);
 
     grunt.registerTask('analyze', [
