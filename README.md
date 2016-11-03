@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This a very simple framework for JavaScript Coding Dojo sessions, based on the "Sandbox" pattern. You can perform your exercises and write tests with [Jasmine](http://pivotal.github.io/jasmine/), while [JSHint](http://www.jshint.com/) and the test runner [Karma](http://karma-runner.github.io/) keep their eyes on your code - with the help of [Grunt](http://gruntjs.com/). In addition, [Plato](https://github.com/es-analysis/plato) analyzes the code complexity and generates reports.
+This a very simple framework for JavaScript Coding Dojo sessions, based on the "Sandbox" pattern. You can perform your exercises and write tests with [Jasmine](http://jasmine.github.io/), while [JSHint](http://www.jshint.com/) and the test runner [Karma](http://karma-runner.github.io/) keep their eyes on your code - with the help of [Grunt](http://gruntjs.com/). In addition, [Plato](https://github.com/es-analysis/plato) analyzes the code complexity and generates reports.
 
 ## How to install?
 
